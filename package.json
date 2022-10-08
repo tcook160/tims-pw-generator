@@ -2,6 +2,7 @@
   "homepage": "https://tcook160.github.io/tims-pw-generator",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "build": "webpack --config webpack.config.js"
   }
 }
