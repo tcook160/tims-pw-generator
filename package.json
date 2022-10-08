@@ -1,5 +1,5 @@
 {
   "homepage": "https://tcook160.github.io/tims-pw-generator",
   "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
+  "deploy": "gh-pages -d build"
 }
