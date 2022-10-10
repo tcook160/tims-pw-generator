@@ -3,6 +3,6 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "webpack --config webpack.config.js"
+    "build": "cd packages/react-scripts && node bin/react-scripts.js build",
   }
 }
